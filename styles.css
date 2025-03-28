@@ -1,0 +1,76 @@
+/* General Styling */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+/* Buttons */
+button {
+    background-color: #1DB954; /* Spotify Green */
+    color: white;
+    border: 2px solid transparent;
+    padding: 14px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto; /* Increased spacing */
+    width: 220px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    border: 2px solid #ffffff;
+    background-color: #0e7c43;
+}
+
+/* Form Inputs */
+input, select {
+    background-color: #1e1e1e;
+    color: white;
+    border: 1px solid #333;
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0; /* Increased spacing */
+    border-radius: 5px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #1DB954;
+    color: white;
+}
+
+/* Floating Action Button (FAB) */
+.fab {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #1DB954;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.fab:hover {
+    background-color: #0e7c43;
+}
